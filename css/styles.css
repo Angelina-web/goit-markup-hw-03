@@ -155,8 +155,8 @@ margin: 0 auto;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
+
 .goal-section{
     padding: 120px 0; 
  }        
@@ -167,6 +167,7 @@ margin: 0 auto;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px; 
 }  
 
 .title-goal-p{
@@ -181,7 +182,7 @@ margin: 0 auto;
     gap: 24px;
 }
 .goals-list-item{
-    width: calc((100% - 24px * 2) / 4);
+    width: calc((100% - 24px * 3) / 4);
 }
 
 
@@ -210,6 +211,7 @@ margin: 0 auto;
   
 .bordered-team{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .border-title{
     padding: 32px 0;
