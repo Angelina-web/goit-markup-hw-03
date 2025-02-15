@@ -26,6 +26,10 @@ margin: 0 auto;
 }
 
         /*    HEADER */
+.header{
+    border-bottom: 1px solid #e7e9fc
+ }
+
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -35,6 +39,7 @@ margin: 0 auto;
     text-transform: uppercase;
     color: #4d5ae5;
     padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo-style{
@@ -48,7 +53,7 @@ margin: 0 auto;
 
 .nav-header{
     display: flex;
-    gap: 76px;
+    align-items: center; 
 }
 
 .nav-list-header{
@@ -100,6 +105,7 @@ margin: 0 auto;
 
 .button-section{
     background: #2e2f42;
+    padding: 188px 0;
 }
 
 .headline{ 
@@ -111,8 +117,8 @@ margin: 0 auto;
     max-width: 496px;
     text-align: center;
     margin-top: 0;
-    padding-top: 188px ;
     margin-bottom: 48px;
+    margin-left: 316px;
 }
 
 .butn{
@@ -127,7 +133,9 @@ margin: 0 auto;
     text-align: center;
     border-radius: 4px;
     padding: 16px 32px;
-    margin-bottom: 188px;
+    display: block;
+    min-width: 169px;
+    margin-left: 480px;
 }
 
 .butn:hover,
@@ -136,11 +144,23 @@ margin: 0 auto;
 }
 
          /*    GOALS */
-
-.goals-container{
-    margin-top: 120px;
-    margin-bottom: 120px;
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin-bottom: 8px;
 }
+.goal-section{
+    padding: 120px 0; 
+ }        
+
 .title-goal{
     font-weight: 500;
     font-size: 20px;
@@ -174,6 +194,7 @@ margin: 0 auto;
   }        
 .team-section{
     background-color: #F4F4FD;
+    padding: 120px 0; 
 }
 
 .text-team{
@@ -184,14 +205,15 @@ margin: 0 auto;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
   
 .bordered-team{
     background-color: #FFFFFF;
 }
-
+.border-title{
+    padding: 32px 0;
+}
 .our-name{
     font-weight: 500;
     font-size: 20px;
@@ -199,6 +221,7 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .our-name-p{
@@ -211,9 +234,8 @@ margin: 0 auto;
 }
 
            /*    OUR PORTFOLIO */
-.portfolio-container{
-    padding-top: 124px;
-    padding-bottom: 120px;
+.portfolio-section{
+    padding: 120px 0 120px 0
 }
 
 .portfolio-item{
@@ -235,7 +257,7 @@ margin: 0 auto;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .apps{
     font-weight: 500;
@@ -243,6 +265,7 @@ margin: 0 auto;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .apps-p{
@@ -251,7 +274,6 @@ margin: 0 auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 8px;
 }
 
 .border-apps{
@@ -265,9 +287,7 @@ margin: 0 auto;
 
 footer{
     background: #2e2f42;
-}
-.container-footer{
-    padding-top: 100px;
+    padding: 100px 0
 }
 
 .footer-text{
@@ -277,7 +297,6 @@ footer{
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    padding-bottom: 100px;
 }
 
 .logo-footer{
@@ -288,7 +307,8 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-bottom: 16px;
+    margin-bottom: 16px; 
+    display: inline-block;
 }
 .logo-footer-style{
     color: #f4f4fd;
